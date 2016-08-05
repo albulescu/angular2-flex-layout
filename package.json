@@ -1,0 +1,47 @@
+{
+  "name": "angular2-flex-layout",
+  "version": "1.0.9",
+  "description": "Angular 2 flex layout directives and responsive utilities",
+  "main": "./angular2-flex-layout.js",
+  "scripts": {
+    "start": "gulp build --color"
+  },
+  "typings": "./angular2-flex-layout.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albulescu/angular2-flex-layout.git"
+  },
+  "keywords": [
+    "angular2",
+    "flex",
+    "layout",
+    "responsive"
+  ],
+  "author": "Cosmin Albulescu <cosmin@albulescu.ro>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albulescu/angular2-flex-layout/issues"
+  },
+  "homepage": "https://github.com/albulescu/angular2-flex-layout#readme",
+  "devDependencies": {
+    "codelyzer": "0.0.26",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^6.0.2",
+    "gulp-typescript": "^2.13.6",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.9",
+    "merge2": "^1.0.2",
+    "systemjs-builder": "^0.15.26",
+    "traceur": "0.0.111",
+    "ts-node": "^1.2.2",
+    "tslint": "^3.14.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  },
+  "dependencies": {
+    "@angular/core": "^2.0.0-rc.4"
+  }
+}
